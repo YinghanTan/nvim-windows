@@ -7,7 +7,7 @@ let g:startify_custom_header = [
   \ ]
 
 let g:startify_session_persistence = 0 " Update Session automatically as you exit vim
-let g:startify_session_dir = '~/.config/nvim/session'
+let g:startify_session_dir = '~/AppData/Local/nvim/session'
 let g:startify_session_autoload = 0
 let g:startify_session_delete_buffers = 1
 let g:startify_change_to_vcs_root = 1

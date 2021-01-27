@@ -170,8 +170,10 @@ autocmd Filetype javascript set foldlevelstart=99 "start file with all folds ope
 
 
 " Fire Neovim
-autocmd BufEnter github.com_*.txt set filetype=markdown
-autocmd BufEnter txti.es_*.txt set filetype=javascript
-autocmd BufEnter airtable.com_*.txt set filetype=javascript
+au BufEnter github.com_*.txt set filetype=markdown
+au BufEnter txti.es_*.txt set filetype=javascript
+" au BufEnter airtable.com_*.txt set filetype=js
+au BufEnter *.airtableblocks.com_*.ts set filetype=javascript
+au BufEnter *-description.txt set filetype=markdown
 
 " --- --- ---

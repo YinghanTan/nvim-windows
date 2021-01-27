@@ -56,7 +56,7 @@
 
     // snippets
     // "snippets.ultisnips.directories": ["~/.config/nvim/ultisnips"],
-    "snippets.userSnippetsDirectory": "~/.config/nvim/ultisnips",
+    "snippets.userSnippetsDirectory": "~/AppData/Local/nvim/ultisnips",
     "snippets.editSnippetsCommand": "vsplit",
 
     // emmet

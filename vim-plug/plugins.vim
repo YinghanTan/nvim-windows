@@ -29,7 +29,7 @@ call plug#begin('~/AppData/Local/nvim/autoload/plugged')
     Plug 'tpope/vim-rhubarb' " Git
     Plug 'junegunn/gv.vim' " Git
     Plug 'voldikss/vim-floaterm' " Terminal
-    Plug 'mhinz/vim-startify' " Start Screen
+    " Plug 'mhinz/vim-startify' " Start Screen
     Plug 'liuchengxu/vim-which-key' " View Shortcut keys
     Plug 'honza/vim-snippets' " Snippets
     " Plug 'mattn/emmet-vim' " Snippets
